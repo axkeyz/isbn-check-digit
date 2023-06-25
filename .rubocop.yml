@@ -1,0 +1,17 @@
+require: rubocop-rails
+
+Style/Encoding:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 99
+
+AllCops:
+  Include:
+    - 'app/*.rb'
+    - 'lib/*.rb'
+    - 'test/*.rb'
+    - 'config/*.rb'
