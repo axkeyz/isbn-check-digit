@@ -16,12 +16,12 @@ If the isbn is in the right format, the data returned should be the isbn with th
 
 ## Linting
 
-I've been using `rubocop --auto-correct-all` for Rails.
-Eslint autosave configured for vscode, or manually `npm run lint`.
+- I've been using `rubocop --auto-correct-all` for Rails.
+- Eslint autosave configured for vscode, or manually `npm run lint`.
 
 ## Testing
 
 Not my strength to be honest...
 
-`rails test` - I believe it's Minitest?
-`npm run test` - Vitest.
+- `rails test` - I believe it's Minitest?
+- `npm run test` - Vitest.
